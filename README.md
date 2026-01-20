@@ -54,14 +54,16 @@ modifying, or interacting with AWS resources beyond read-only access.
 
 ## Project Structure
 
+```
 iam-attack-surface-analysis/
-├── data/ Raw IAM data excluded to avoid exposing account metadata
-├── analysis/ # Written security analysis
-├── reports/ # Findings, risk summary, recommendations
-├── src/ # Data collection scripts
+├── data/            # Raw IAM data (excluded to avoid exposing account metadata)
+├── analysis/        # Written security analysis
+├── reports/         # Findings, risk summary, recommendations
+├── src/             # Data collection scripts
 ├── README.md
 ├── requirements.txt
 └── .gitignore
+```
 
 
 ---
