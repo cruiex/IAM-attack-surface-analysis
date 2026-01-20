@@ -2,11 +2,9 @@ import json
 import os
 import boto3
 
-# Resolve paths safely (independent of where script is run)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DATA_DIR = os.path.join(BASE_DIR, "..", "data")
 
-# IAM client (read-only credentials)
 iam = boto3.client("iam")
 
 
